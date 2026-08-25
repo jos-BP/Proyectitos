@@ -9,29 +9,29 @@
 <body class="bg-light">
 
   <div class="container d-flex justify-content-center align-items-center min-vh-100">
-    <div class="card shadow-sm p-4 style-card" style="width: 100%; max-width: 450px; border-radius: 12px;">
+    <div class="card shadow-sm p-4" style="width: 100%; max-width: 450px; border-radius: 12px;">
       
       <h3 class="text-center mb-4 text-primary fw-bold">Registro de Usuario</h3>
       
       <form>
         <div class="mb-3">
-          <label for="carnet" class="form-label font-weight-bold">Carnet</label>
-          <input type="text" class="form-control" id="carnet" placeholder="Ingresa tu carnet" required>
+          <label for="carnet" class="form-label">Carnet</label>
+          <input type="text" class="form-control" id="carnet" name="carnet" placeholder="Ingresa tu carnet" required>
         </div>
 
         <div class="mb-3">
           <label for="nombre" class="form-label">Nombre Completo</label>
-          <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+          <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
         </div>
 
         <div class="mb-3">
           <label for="edad" class="form-label">Edad</label>
-          <input type="number" class="form-control" id="edad" placeholder="Ingresa tu edad" min="1" max="120" required>
+          <input type="number" class="form-control" id="edad" name="edad" placeholder="Ingresa tu edad" min="1" max="120" required>
         </div>
 
         <div class="mb-4">
           <label for="genero" class="form-label">Género</label>
-          <select class="form-select" id="genero" required>
+          <select class="form-select" id="genero" name="genero" required>
             <option value="" selected disabled>Selecciona una opción</option>
             <option value="Masculino">Masculino</option>
             <option value="Femenino">Femenino</option>
