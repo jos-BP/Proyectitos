@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario de Registro</title>
-  <!-- Link a la CDN de Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
@@ -15,25 +14,21 @@
       <h3 class="text-center mb-4 text-primary fw-bold">Registro de Usuario</h3>
       
       <form>
-        <!-- Carnet -->
         <div class="mb-3">
           <label for="carnet" class="form-label font-weight-bold">Carnet</label>
           <input type="text" class="form-control" id="carnet" placeholder="Ingresa tu carnet" required>
         </div>
 
-        <!-- Nombre -->
         <div class="mb-3">
           <label for="nombre" class="form-label">Nombre Completo</label>
           <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
         </div>
 
-        <!-- Edad -->
         <div class="mb-3">
           <label for="edad" class="form-label">Edad</label>
           <input type="number" class="form-control" id="edad" placeholder="Ingresa tu edad" min="1" max="120" required>
         </div>
 
-        <!-- Género -->
         <div class="mb-4">
           <label for="genero" class="form-label">Género</label>
           <select class="form-select" id="genero" required>
@@ -44,7 +39,6 @@
           </select>
         </div>
 
-        <!-- Botón -->
         <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold">Enviar Datos</button>
       </form>
 
